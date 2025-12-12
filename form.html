@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form_Assignment</title>
+    <link rel="stylesheet" type="text/css" href="form.css">
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Event Registration Form</legend>
+            <label>Full name</label><br>
+            <input type="text" name="full name" placeholder="Enter your full name" required><br>
+            <label>Email</label><br>
+            <input type="email" name="email" placeholder="example@email.com" required><br>
+            <label>Phone Number</label><br>
+            <input type="tel" name="phone number" placeholder="+20 10 1234 5678" required><br>
+            <label>Gender</label><br>
+            <input type="radio" name="Gender" value="male">Male
+            <input type="radio" name="Gender" Value="Female"> Female<br>
+            <label>Type</label><br>
+            <select name="dropdown">
+                <option value="Attendee">Attendee</option>
+                <option value="Speaker">Speaker</option>
+                <option value="Volunteer">Volunteer</option>
+              </select><br>
+            <label>Interests</label><br>
+            <input type="checkbox" name="interests" value="Programming">Programming<br>
+            <input type="checkbox" name="interests" value="Design">Design<br>
+            <input type="checkbox" name="interests" value="AI">AI<br>
+            <input type="checkbox" name="interests" value="Marketing">Marketing<br>
+            <label> Select Date</label><br>
+            <input type="date" name="date"><br>
+            <br>
+            <label>Comments</label><br>
+            <textarea name="comments" rows="4" cols="50" placeholder="Enter your comments here..."></textarea><br>
+            <br>
+            <input type="submit" value="Submit">    <input type="reset" value="Reset">
+        </fieldset>
+        
+
+    </form>
+    
+
+
+</body>
+</html>
